@@ -1,0 +1,41 @@
+{
+    "name": "appserver-io/resources",
+    "type": "package",
+    "description": "Package that provides basic functionality to handle resource bundles.",
+    "homepage": "https://github.com/appserver-io/resources",
+    "license": "OSL-3.0",
+    "require": {
+        "php": ">=5.4.0 < 8.0",
+        "appserver-io/properties": "~2.0",
+        "phpoffice/phpspreadsheet": "1.2.*"
+    },
+    "require-dev": {
+        "appserver-io/build": "~1.0"
+    },
+    "autoload": {
+        "psr-0": {
+            "AppserverIo\\Resources": [
+                "src/",
+                "tests/"
+            ]
+        }
+    },
+    "authors": [
+        {
+            "name": "Tim Wagner",
+            "email": "tw@appserver.io",
+            "homepage": "https://github.com/wagnert",
+            "role": "Developer"
+        }
+    ],
+    "support": {
+        "email": "t.wagner@techdivision.com",
+        "issues": "https://github.com/appserver-io/resources/issues",
+        "source": "https://github.com/appserver-io/resources"
+    },
+    "keywords": [
+        "resources",
+        "bundle",
+        "settings"
+    ]
+}
